@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/jwtoauth2react/static/css/main.e6c13ad2.css",
-    "main.js": "/jwtoauth2react/static/js/main.d45f166e.js",
+    "main.js": "/jwtoauth2react/static/js/main.bbe38868.js",
     "static/js/453.7f944b52.chunk.js": "/jwtoauth2react/static/js/453.7f944b52.chunk.js",
     "index.html": "/jwtoauth2react/index.html",
     "main.e6c13ad2.css.map": "/jwtoauth2react/static/css/main.e6c13ad2.css.map",
-    "main.d45f166e.js.map": "/jwtoauth2react/static/js/main.d45f166e.js.map",
+    "main.bbe38868.js.map": "/jwtoauth2react/static/js/main.bbe38868.js.map",
     "453.7f944b52.chunk.js.map": "/jwtoauth2react/static/js/453.7f944b52.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.d45f166e.js"
+    "static/js/main.bbe38868.js"
   ]
 }
