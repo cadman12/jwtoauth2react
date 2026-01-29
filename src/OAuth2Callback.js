@@ -27,15 +27,15 @@ const OAuth2Callback = () => {
           console.log("jwtToken", jwtToken);
           if (jwtToken) sessionStorage.setItem("jwtToken", jwtToken);
           console.log("로그인 성공!");
-          navigate("/welcome", { replace: true });
+          navigate("../welcome");
         } else {
           alert("JWT 검증 실패");
-          navigate("/login");
+          navigate("../login");
         }
       } catch (err) {
         console.error("서버 요청 오류", err);
         alert("서버 요청 오류");
-        navigate("/login");
+        navigate("../login");
       }
     };
     fetchCallback();
