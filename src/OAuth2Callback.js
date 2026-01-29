@@ -27,7 +27,7 @@ const OAuth2Callback = () => {
           console.log("jwtToken", jwtToken);
           if (jwtToken) sessionStorage.setItem("jwtToken", jwtToken);
           console.log("로그인 성공!");
-          navigate("/welcome");
+          navigate("/#/welcome");
         } else {
           alert("JWT 검증 실패");
           navigate("/login");
